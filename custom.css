@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1400px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 80px;
+}
+
+.logo_box {
+    height: 100%;
+    margin-top: 17px;
+    float: left;
+}
+
+.logo_box p {
+    font-weight: bold;
+    padding-left: 100px; /* 로고의 위치를 오른쪽으로 */
+}
+
+.logo_box p:first-child {
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5;
+}
+
+.logo_box p:last-child {
+    font-size: 28px;
+    color: #000;
+}
+
+#visual {
+    height: 780px;
+    background-image: url(imgs/visual.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#visual p {
+    padding-top: 120px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#visual h2 {
+    font-size: 110px;
+    font-weight: bold;
+    color: #1d486b;
+    text-align: center;
+}
+
+#Bracket1{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    cursor: pointer;
+}
+
+#Bracket1:hover{
+    background-color: rgba(226, 226, 226, 0.26);
+    color: #161616;
+}
+
+#Bracket2:hover{
+    background-color: rgba(226, 226, 226, 0.26);
+    color: #161616;
+}
+
+#Bracket2{
+    position: relative;
+    top: 100px;
+    left: 1270px;
+    cursor: pointer;
+}
+
+#namsanPark * {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#namsanPark {
+    position: relative;
+    font-size: 25px;
+    padding-right: 150px;  /* 글자 전체를 왼쪽으로 옮겨줌 */
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: right; /* 오른쪽 정렬 */
+}
+
+#namsanParkTitle {
+    position: relative;
+    font-size: 25px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.namsanParkBold {
+    font-size: 36px;
+    color: rgb(16, 48, 131) ;
+}
+
+#namsanParkBody {
+    position: relative;
+    color: rgba(0, 0, 0, .5);
+    line-height: 2; /* 글자의 줄과 줄 사이에 간격 */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1px; /* 글자와 글자 사이에 간격 */
+    font-size: 15.4px;
+}
+
+#ntower {
+    position: relative;
+    padding-top: 15px;
+}
+
+.i01, .i02 {
+    position: relative;
+    margin-right: 36px;
+}
+
+#hln {
+    position: relative;
+}
+
+#left {
+    position: relative;
+    top: -280px;
+}
+
+#nSeoul {
+    position: relative;
+    z-index: 3;
+    bottom: 870px;
+    left: 160px;
+}
+
+#nSeoulText * {
+    z-index: 4;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: bold;
+}
+
+#nSeoulText {
+    position: relative;
+    color: white;
+    padding-left: 190px;
+    top: -1040px;
+}
+
+span.N {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+#nSeoulTitle {
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.9px
+}
+
+#nSeoulbody {
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    opacity: 0.7;
+    padding-left: 10px;
+    font-family: 'Blinker', sans-serif;
+    line-height: 1.2; /* 글자의 줄과 줄 사이에 간격 */
+    letter-spacing: 0.9px; /* 글자와 글자 사이에 간격 */ 
+}
+
+#haetae { 
+    position: relative;
+    z-index: 2;
+    padding-left: 650px; /* 해태 x 축 */
+    top: -350px; /* 해태 y 축 */
+}
+
+#btripText * {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+#btripText {
+    position: relative;
+    color: black;
+    top: 100px;
+    width: 79px; /* 글자의 X축 */
+}
+
+#btripTitle {
+    position: relative;
+    color: rgb(157, 137, 100);
+    top: -1120px;
+    font-size: 25px;
+    line-height: 3;
+    letter-spacing: 1px;
+}
+
+#btripbody {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);;
+    line-height: 1.6;
+    letter-spacing: 0.9px;
+}
+
+#btrip1 {
+    position: relative;
+    margin-top: -1085px;
+    margin-left: 160px;
+    width: 50%;
+}
+
+.l02, .l03 {
+    position: relative;
+    margin-left: 36px;
+}
+
+#chang {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    top: -900px;
+}
+
+#c_bottom {
+    position: relative;
+    z-index: -1;
+    display: block;
+    top: -900px;
+}
+
+.sub {
+    position: relative;
+    padding-left: 580px;
+}
+
+#whiteBox {
+    position: relative;
+    background-color: blue;
+    width: 645px;
+    height: 300px;
+    padding-top: -900px;
+    text-align: center;
+}
+
+#whiteBox_icon {
+    position: relative;
+    text-align: center;
+}
+
+.b02, .b03, .b04 {
+    padding: 27px 0px 0px 53px; /* 상 우 하 좌 */
+}
+
+#whiteBoxText * {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+#whiteBoxTest p {
+    position: relative;
+    margin: 80px 0px 10px 120px;
+}
+
+span.differentColor {
+    color: rgb(94, 22, 0);
+}
+
+#whiteBoxInbox {
+    position: relative;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    width: 645px;
+    height: 95px;
+    top: 20px;
+    border: 1.5px solid rgba(0, 0, 0, .1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+#bottom {
+    position: relative;
+    z-index: -2;
+    width: 1399px;
+    height: 224px;
+    right: 380px;
+    top: -12px;
+    background-color: rgb(99, 85, 58);
+}
+
+.line {
+    border-bottom: 1px solid black;
+    padding-top: 140px;
+    opacity: .1;
+}
+
+#bottom p {
+    position: relative;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .5);;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: center;
+}

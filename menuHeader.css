@@ -1,0 +1,39 @@
+.menu {
+    height: 100%;
+    float:right;
+    display: flex;
+    align-items: stretch;
+}
+
+.menu * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.menu li {
+    font-weight: bold;
+    color: #666;
+    width: 140px; /* 체크박스 */
+    text-align: center;
+    cursor: pointer;
+    padding-left: 5.6px; /* 리뷰앤리지스터 위치 설정 */
+    position: relative; left: -40px; /* 헤더의 전체적인 위치 */
+}
+
+.menu li:last-child {
+    padding-left: 5.6px; /*글자 위치 선정 */
+}
+
+.menu li:hover {
+    background-color: #e9e9e9;
+    color: #161616;
+}
+
+.menu span {
+    font-size: 8px;
+    font-weight: normal;
+    opacity: .8;
+    position: absolute; right: -1.05px;
+}
